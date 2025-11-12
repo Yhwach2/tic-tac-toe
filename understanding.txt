@@ -1,0 +1,9 @@
+What does getCell(int row, int col) return if you pass invalid coordinates like (-1, 5)?
+-
+What does getWinner() return when there's no winner yet?
+
+Explain why getWinner() is marked const but makeMove() is not.
+
+If the board is full but nobody has won, what should isGameOver() return?
+
+What value does getCurrentPlayer() return at the start of a new game?
