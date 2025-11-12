@@ -1,9 +1,11 @@
 What does getCell(int row, int col) return if you pass invalid coordinates like (-1, 5)?
--
+-Since the coordinates are on 3by3 board anything exceeding returns blank space
 What does getWinner() return when there's no winner yet?
-
+-Will return blank space since noone has won yet
 Explain why getWinner() is marked const but makeMove() is not.
-
+-getWinner() is always on fixed variables that does need to be changed no more, but however on the other hand
+makeMove() is the variable that always should be changing to keep the game going
 If the board is full but nobody has won, what should isGameOver() return?
-
+-Since its a tie it should return true because the game has already ended without no winner
 What value does getCurrentPlayer() return at the start of a new game?
+-X, since the game starts with x first
